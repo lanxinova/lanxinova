@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="一个记录技术、项目和日常灵感的个人空间。">
+  <title>个人空间 · 记录想法与作品</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script src="./assets/site-data.js" defer></script>
+  <script src="./assets/app.js" defer></script>
+</head>
+<body data-page="home">
+  <div class="background-noise" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">跳转到内容</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./" aria-label="返回首页"><span class="brand-mark" aria-hidden="true">✳</span><span data-brand>YOUR SPACE</span><span class="brand-dot">.</span></a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a href="#home" class="nav-link active">首页</a>
+        <a href="#about" class="nav-link">关于</a>
+        <a href="#articles" class="nav-link">文章</a>
+        <a href="#projects" class="nav-link">项目</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button theme-toggle" type="button" aria-label="切换深浅主题" title="切换主题"><span class="theme-icon">☼</span></button>
+        <button class="icon-button mobile-menu-toggle" type="button" aria-label="展开菜单" aria-expanded="false" aria-controls="mobile-nav"><span class="menu-icon">☰</span></button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="移动导航" hidden>
+      <a href="#home">首页</a><a href="#about">关于</a><a href="#articles">文章</a><a href="#projects">项目</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-pulse"></span> A PERSONAL CORNER OF THE INTERNET <span class="eyebrow-dash">/ 2026</span></div>
+        <h1 id="hero-title">把好奇心写成代码，<br><span class="hero-gradient">把过程留在这里。</span></h1>
+        <p class="hero-description" data-hero-description>你好，这是我的个人空间。分享技术探索、开发中的作品，以及那些值得被记录的想法。</p>
+        <div class="hero-ctas"><a class="button button-primary" href="#articles">阅读文章 <span aria-hidden="true">↗</span></a><a class="button button-quiet" href="#projects">探索项目 <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-footnote"><span class="line-accent" aria-hidden="true"></span><span>独立思考 / 持续创造 / 慢慢积累</span></div>
+      </div>
+      <div class="hero-art" aria-label="个人工作台的装饰插画">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="floating-symbol symbol-one" aria-hidden="true">✦</div><div class="floating-symbol symbol-two" aria-hidden="true">✧</div>
+        <div class="workspace-card">
+          <div class="workspace-top"><span class="window-dots"><i></i><i></i><i></i></span><span>hello_world.js</span><span>↗</span></div>
+          <div class="workspace-code" aria-hidden="true"><div><span class="ln">01</span><span class="code-purple">const</span> creator = {</div><div><span class="ln">02</span>&nbsp; curiosity: <span class="code-green">true</span>,</div><div><span class="ln">03</span>&nbsp; learning: <span class="code-orange">"always"</span>,</div><div><span class="ln">04</span>&nbsp; making: <span class="code-orange">"something"</span></div><div><span class="ln">05</span>};</div><div class="code-gap"><span class="ln">06</span></div><div><span class="ln">07</span><span class="code-purple">while</span> (curious) {</div><div><span class="ln">08</span>&nbsp; <span class="code-blue">build</span>(nextIdea); <span class="cursor"></span></div><div><span class="ln">09</span>}</div></div>
+          <div class="workspace-bottom"><span class="status-dot"></span> all systems curious <span class="workspace-version">UTF-8 • JS</span></div>
+        </div>
+        <div class="floating-tag"><span class="floating-tag-glyph">✳</span> CREATE <span class="floating-tag-end">/ REPEAT</span></div>
+      </div>
+    </section>
+
+    <section class="about-section section-band" id="about" aria-labelledby="about-title"><div class="container about-layout">
+      <div class="section-heading-small"><span class="section-number">01 / ABOUT</span><h2 id="about-title">你好，<br>很高兴在这里相遇<span class="punctuation">。</span></h2></div>
+      <div class="about-copy"><div class="about-card"><div class="avatar-block" data-avatar aria-hidden="true">YOU</div><div><div class="about-name" data-person-name>你的名字</div><div class="about-role" data-person-role>开发者 · 记录者 · 终身学习者</div></div><span class="about-star" aria-hidden="true">✳</span></div><p data-about-text>我喜欢把脑海中的想法变成真正可用的东西：可能是一个小工具、一段代码，也可能只是对一个问题的深入思考。这里是作品集，也是持续更新的公开笔记。</p><div class="skill-tags" id="skill-tags"></div></div>
+    </div></section>
+
+    <section class="section container articles-section" id="articles" aria-labelledby="articles-title">
+      <div class="section-top"><div><span class="section-number">02 / WRITING</span><h2 id="articles-title">一些值得记录的<span class="punctuation">想法。</span></h2><p class="section-subtitle">关于技术、学习，以及好奇心去过的地方。</p></div><div class="section-aside"><span class="tiny-icon" aria-hidden="true">↗</span><span>THINK · WRITE · SHARE</span></div></div>
+      <div class="article-tools"><div class="filter-group" id="article-filters" aria-label="文章分类筛选"></div><label class="search-box"><span aria-hidden="true">⌕</span><input id="article-search" type="search" placeholder="搜索文章..." aria-label="搜索文章"></label></div>
+      <div class="article-grid" id="article-grid" aria-live="polite"></div>
+      <p class="empty-message" id="article-empty" hidden>暂时没有符合条件的文章，试试其他关键词。</p>
+      <p class="demo-notice">以上为演示文章，发布前可在 <code>assets/site-data.js</code> 中修改。</p>
+    </section>
+
+    <section class="projects-section section-band" id="projects" aria-labelledby="projects-title"><div class="container">
+      <div class="section-top"><div><span class="section-number">03 / SELECTED WORK</span><h2 id="projects-title">把想法做成<span class="punctuation">作品。</span></h2><p class="section-subtitle">从灵感到实现，一些正在成长的小项目。</p></div><div class="section-aside"><span class="tiny-icon" aria-hidden="true">◇</span><span>BUILD SOMETHING USEFUL</span></div></div>
+      <div class="project-grid" id="project-grid"></div>
+      <p class="demo-notice">以上为演示项目，替换为自己的真实作品后再公开。</p>
+    </div></section>
+
+    <section class="closing-section container" aria-labelledby="closing-title"><div class="closing-card"><div class="closing-decoration" aria-hidden="true">✳</div><span class="section-number">04 / NEXT CHAPTER</span><h2 id="closing-title">故事还在继续<span class="punctuation">。</span></h2><p>这里不追求完美的终稿，只记录真实的探索。<br>下一篇文章、下一个项目，正在路上。</p><a href="#home" class="button button-primary">回到顶部 <span aria-hidden="true">↑</span></a></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><div><a class="brand footer-brand" href="./"><span class="brand-mark" aria-hidden="true">✳</span><span data-brand>YOUR SPACE</span><span class="brand-dot">.</span></a><p>Made with curiosity. Powered by GitHub Pages.</p></div><div class="footer-links"><a href="#about">关于</a><a href="#articles">文章</a><a href="#projects">项目</a><a id="github-link" href="https://github.com" target="_blank" rel="noopener noreferrer" hidden>GitHub ↗</a></div><span class="copyright" id="copyright">© 2026</span></div></footer>
+</body>
+</html>
