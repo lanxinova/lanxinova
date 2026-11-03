@@ -9,7 +9,7 @@ window.SITE_DATA = {
     personName: '你的名字',
     avatarText: 'YOU',
     role: '开发者 · 记录者 · 终身学习者',
-    heroDescription: '你好，这是我的个人空间。分享技术探索、开发中的作品，以及那些值得被记录的想法。',
+    heroDescription: '从燃料与煤场，到设备、安全和能效，探索电厂业务协同与数据追溯。',
     about: '我喜欢把脑海中的想法变成真正可用的东西：可能是一个小工具、一段代码，也可能只是对一个问题的深入思考。这里是作品集，也是持续更新的公开笔记。',
     skills: ['Web 开发', '开源技术', '游戏创作', '学习笔记', '持续探索'],
     github: 'https://github.com/nizuowanzhenbang'
