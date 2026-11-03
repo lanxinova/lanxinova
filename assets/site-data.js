@@ -12,9 +12,33 @@ window.SITE_DATA = {
     heroDescription: '你好，这是我的个人空间。分享技术探索、开发中的作品，以及那些值得被记录的想法。',
     about: '我喜欢把脑海中的想法变成真正可用的东西：可能是一个小工具、一段代码，也可能只是对一个问题的深入思考。这里是作品集，也是持续更新的公开笔记。',
     skills: ['Web 开发', '开源技术', '游戏创作', '学习笔记', '持续探索'],
-    github: ''  // 例如 'https://github.com/your-username'；留空则隐藏
+    github: 'https://github.com/nizuowanzhenbang'
   },
   posts: [
+    {
+      slug: 'smart-power-plant',
+      category: '项目介绍',
+      date: '2026-11-03',
+      readMinutes: 5,
+      title: '数智化电厂：让业务数据连接起来',
+      excerpt: '从燃料、设备到安全与能效，记录一个电厂数字化原型的业务链路、已实现的联动，以及下一步探索。',
+      visual: 'blue',
+      visualWord: 'SMART / POWER',
+      featured: true,
+      content: [
+        {type: 'p', text: '电厂的运行涉及燃料供应、设备维护、安全管理和能效分析。数智化电厂项目围绕这些业务构建软件原型，尝试让不同系统中的记录能够被理解、核对和串联。'},
+        {type: 'h2', text: '项目覆盖哪些业务？'},
+        {type: 'list', items: ['燃料与煤场：关注采购、运输、煤质检验和库存出入场。', '设备与安全：记录设备点检、缺陷处理和安全隐患整改。', '运行与能效：围绕燃煤机组运行数据、煤质和能效分析构建情景预览。', '环保与燃气：探索排放监测、燃气计量和燃机性能等业务场景。']},
+        {type: 'h2', text: '从单个系统走向业务联动'},
+        {type: 'p', text: '设备点检中发现的重大缺陷，可以通过系统联动进入安全隐患处理流程。联动过程保留消息与接收记录，帮助排查重复发送、接收冲突等问题。'},
+        {type: 'p', text: '在燃料链路中，煤质化验结果可以带着来源和时间说明进入能效情景预览；煤场出场记录也可导出经过核查的账面扣减依据，便于追溯数量和来源。'},
+        {type: 'h2', text: '如何理解当前成果？'},
+        {type: 'p', text: '项目以软件原型和模拟数据为基础，重点探索数据口径、业务关联和可追溯性。煤场账面出场并不自动等于机组实际入炉；情景预览也不能直接代表实际运行收益。'},
+        {type: 'h2', text: '接下来继续探索'},
+        {type: 'list', items: ['完善库存盘点、并发操作和跨系统数据的一致性。', '进一步梳理煤质、煤场与机组运行之间的实际消耗依据。', '逐步探索煤质、燃烧和排放相关的可解释情景比较。']},
+        {type: 'callout', text: '这是持续迭代中的个人软件项目。目前尚未证明现场系统接入、全厂验收或实测节能收益。项目代码与进度记录可从首页项目卡片进入。'}
+      ]
+    },
     {
       slug: 'hello-github-pages',
       category: '技术随笔',
@@ -98,6 +122,18 @@ window.SITE_DATA = {
   projects: [
     {
       number: '01',
+      icon: '⚡',
+      title: '数智化电厂',
+      subtitle: 'Smart Power Plant · 持续迭代中',
+      description: '连接燃料、煤场、设备、安全与能效等业务，探索可追溯的数据链路和跨系统协同。',
+      tags: ['电厂数智化', '业务协同', '数据追溯'],
+      visual: 'cyan',
+      status: '软件原型 · 模拟场景',
+      url: 'https://github.com/nizuowanzhenbang/smart-power-plant',
+      articleSlug: 'smart-power-plant'
+    },
+    {
+      number: '02',
       icon: '◈',
       title: 'Pixel Journey',
       subtitle: '像素冒险游戏原型',
@@ -108,7 +144,7 @@ window.SITE_DATA = {
       url: ''  // 可填写 GitHub 仓库或演示网站地址；留空时不显示外链
     },
     {
-      number: '02',
+      number: '03',
       icon: '⌘',
       title: 'Knowledge Base',
       subtitle: '个人知识整理工具',
@@ -119,7 +155,7 @@ window.SITE_DATA = {
       url: ''
     },
     {
-      number: '03',
+      number: '04',
       icon: '✳',
       title: 'Open Source Radar',
       subtitle: '开源项目观察站',
