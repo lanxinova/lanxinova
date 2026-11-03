@@ -139,6 +139,11 @@
       const tags = node('div', 'project-tags');
       project.tags.forEach(tag => tags.append(node('span', '', tag)));
       detail.append(tags);
+      if (typeof project.articleSlug === 'string' && posts.some(post => post.slug === project.articleSlug)) {
+        const link = node('a', 'project-link', '了解项目 ↗');
+        link.href = `./article.html?slug=${encodeURIComponent(project.articleSlug)}`;
+        detail.append(link);
+      }
       if (validWebLink(project.url)) {
         const link = node('a', 'project-link', '查看项目 ↗');
         link.href = project.url;
