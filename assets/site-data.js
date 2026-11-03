@@ -130,7 +130,7 @@ window.SITE_DATA = {
       visual: 'cyan',
       status: '软件原型 · 模拟场景',
       url: 'https://github.com/nizuowanzhenbang/smart-power-plant',
-      articleSlug: 'smart-power-plant'
+      detailUrl: './power-plant.html'
     },
     {
       number: '02',

@@ -139,9 +139,9 @@
       const tags = node('div', 'project-tags');
       project.tags.forEach(tag => tags.append(node('span', '', tag)));
       detail.append(tags);
-      if (typeof project.articleSlug === 'string' && posts.some(post => post.slug === project.articleSlug)) {
+      if (project.detailUrl === './power-plant.html') {
         const link = node('a', 'project-link', '了解项目 ↗');
-        link.href = `./article.html?slug=${encodeURIComponent(project.articleSlug)}`;
+        link.href = project.detailUrl;
         detail.append(link);
       }
       if (validWebLink(project.url)) {
@@ -219,6 +219,11 @@
           article.append(pre);
         }
       });
+      if (post.slug === 'smart-power-plant') {
+        const portfolioLink = node('a', 'button button-primary', '查看完整技术作品页 ↗');
+        portfolioLink.href = './power-plant.html';
+        article.prepend(portfolioLink);
+      }
       content.append(head, banner, article);
     }
   }
