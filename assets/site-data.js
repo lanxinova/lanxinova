@@ -5,13 +5,13 @@
  */
 window.SITE_DATA = {
   site: {
-    brand: 'YOUR SPACE',
-    personName: '你的名字',
-    avatarText: 'YOU',
-    role: '开发者 · 记录者 · 终身学习者',
+    brand: 'SMART POWER',
+    personName: '电厂数智化探索',
+    avatarText: 'SP',
+    role: '电厂现场 · 信息化 · 数智化',
     heroDescription: '从燃料与煤场，到设备、安全和能效，探索电厂业务协同与数据追溯。',
-    about: '我喜欢把脑海中的想法变成真正可用的东西：可能是一个小工具、一段代码，也可能只是对一个问题的深入思考。这里是作品集，也是持续更新的公开笔记。',
-    skills: ['Web 开发', '开源技术', '游戏创作', '学习笔记', '持续探索'],
+    about: '拥有电厂一线运行相关经历，关注现场业务与信息技术的结合。这里记录电厂数智化软件原型、网络安全学习与业务场景探索，希望向信息化和数智化方向持续发展。',
+    skills: ['电厂业务', '电厂数智化', '网络安全', '数据追溯', '业务协同'],
     github: 'https://github.com/nizuowanzhenbang'
   },
   posts: [
