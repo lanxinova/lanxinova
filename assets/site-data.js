@@ -12,7 +12,7 @@ window.SITE_DATA = {
     heroDescription: '计算机专业背景，具有电厂一线运行相关经历，关注生产业务与数字技术结合，求职方向为信息化、数智化及网络安全相关岗位。',
     about: '计算机类专业本科毕业，具有电厂一线运行相关经历，关注燃料、设备、安全及生产业务中的信息化需求。通过个人软件原型探索业务流程与数据协同，希望在能源行业的信息化、数智化或网络安全岗位持续成长。',
     skills: ['电厂业务', '电厂数智化', '网络安全', '数据追溯', '业务协同'],
-    github: 'https://github.com/nizuowanzhenbang'
+    github: 'https://github.com/lanxinova'
   },
   posts: [
     {
@@ -129,7 +129,7 @@ window.SITE_DATA = {
       tags: ['电厂数智化', '业务协同', '数据追溯'],
       visual: 'cyan',
       status: '软件原型 · 模拟场景',
-      url: 'https://github.com/nizuowanzhenbang/smart-power-plant',
+      url: 'https://github.com/lanxinova/smart-power-plant',
       detailUrl: './power-plant.html'
     },
     {
