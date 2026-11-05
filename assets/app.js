@@ -2,7 +2,10 @@
   'use strict';
   const data = window.SITE_DATA;
   if (!data) return;
-  const { site, posts, projects } = data;
+  const { site } = data;
+  // 模板内容保留在数据文件中，首页仅展示电厂项目与介绍。
+  const posts = data.posts.filter(post => post.slug === 'smart-power-plant');
+  const projects = data.projects.filter(project => project.title === '数智化电厂');
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
   const node = (tag, className, text) => {
